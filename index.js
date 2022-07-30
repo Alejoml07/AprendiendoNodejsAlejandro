@@ -1,11 +1,3 @@
-const express = require('express')
+var servidor = require('./server')
 
-const app = express()
-
-app.get("/",(req, res) => {
-    res.send("Hola")
-})
-
-app.listen(8070,()=> {
-    console.log("Servidor fucionando")
-})
+servidor.iniciar();
