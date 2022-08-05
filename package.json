@@ -8,7 +8,6 @@
     "mongodb": "^4.8.1",
     "mongoose": "^6.5.0",
     "morgan": "^1.10.0",
-    "nodemon": "^2.0.19",
     "router": "^1.3.7"
   },
   "name": "node",
@@ -20,8 +19,12 @@
     "url": "https://github.com/Alejoml07/AprendiendoNodejsAlejandro.git"
   },
   "scripts": {
+    "start": "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alejandro",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
