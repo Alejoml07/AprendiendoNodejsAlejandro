@@ -13,13 +13,13 @@
   "name": "node",
   "version": "1.0.0",
   "description": "mi primer proyecto en node",
-  "main": "index.js",
+  "main": "index2.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Alejoml07/AprendiendoNodejsAlejandro.git"
   },
   "scripts": {
-    "start": "nodemon",
+    "start": "nodemon index2.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Alejandro",

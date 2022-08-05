@@ -7,6 +7,6 @@ app.get("/",(req, res) => {
     
 })
 
-app.listen(8060,()=> {
+app.listen(8070,()=> {
     console.log("Servidor fucionando")
 })
