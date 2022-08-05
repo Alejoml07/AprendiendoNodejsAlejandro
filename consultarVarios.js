@@ -5,7 +5,7 @@ var data = JSON.stringify({
     "database": "POSAlejandroMunoz",
     "dataSource": "ADSI2364482",
     "projection": {
-        "Cedula": 103544365
+        
     }
 });
             
