@@ -3,6 +3,7 @@
     "axios": "^0.27.2",
     "boostrap": "^2.0.0",
     "bootstrap": "^5.2.0",
+    "eslint": "^8.21.0",
     "express": "^4.18.1",
     "http": "^0.0.1-security",
     "mongodb": "^4.8.1",
@@ -13,14 +14,13 @@
   "name": "node",
   "version": "1.0.0",
   "description": "mi primer proyecto en node",
-  "main": "index2.js",
+  "dev": "index2.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Alejoml07/AprendiendoNodejsAlejandro.git"
   },
   "scripts": {
-    "start": "nodemon index2.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon index2.js"
   },
   "author": "Alejandro",
   "license": "ISC",
