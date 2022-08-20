@@ -1,11 +1,19 @@
 const express = require('express')
 
 const app = express()
-const calc = require('./MiCalculadora')
+app.set('view engine','ejs')
+const path = require('path');
+app.set('views',path.join(__dirname,'/views'))
 
 app.get("/",(req, res) => {
-    res.send("Hola")
-    console.log(calc.Sumar(1,2))
+    let usuario = ["alejandro", "muñoz", "dilga"];
+
+    var nombre = "Usuario Alejandro"
+    res.render('pages/index',{ 
+        hola:nombre, 
+        arreglousuarios:usuario
+        });
+
     
 })
 
